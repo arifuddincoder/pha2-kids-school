@@ -31,6 +31,11 @@
 /** end fonts styles **/
 
 /** start common css **/
+body {
+    background-color: var(--white-smoke);
+    line-height: 1.5;
+}
+
 .container {
     max-width: 1160px;
     width: 100%;
@@ -42,12 +47,17 @@ img {
     height: auto;
 }
 
-body {
-    background-color: var(--white-smoke);
-}
-
 button {
     cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--dark);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 10px 47px;
+    border-radius: 12px;
 }
 
 /** end common css **/
@@ -127,4 +137,35 @@ button {
     color: var(--dark);
 }
 
-/** start header css **/
+/** end header css **/
+
+/** start banner css **/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner h1 {
+    color: var(--dark);
+    font-size: 3.5rem;
+    line-height: 1.1;
+}
+
+.banner-content_empowering {
+    color: var(--orange);
+    display: block;
+}
+
+.banner-content_towards-vision {
+    color: var(--sky-blue);
+}
+
+.banner p {
+    font-size: 1.25rem;
+    color: var(--dark);
+    padding: 24px 0;
+}
+
+/** end banner css **/

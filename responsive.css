@@ -1,5 +1,12 @@
 @media screen and (max-width:576px) {
 
+    /** common css **/
+    .btn-primary {
+        padding: 8px 24px;
+        font-size: 1rem;
+    }
+
+    /** common css **/
     /** start header css **/
     .header-nav {
         padding: 12px 16px;
@@ -19,6 +26,24 @@
     }
 
     /** end header css **/
+    /** start banner css **/
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .banner h1 {
+        font-size: 2.1rem;
+    }
+
+    .banner p {
+        font-size: 0.88rem;
+        padding: 18px 0;
+    }
+
+    /** end banner css **/
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -42,6 +67,23 @@
     }
 
     /** end header css **/
+    /** start banner css **/
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    /** end banner css **/
 }
 
-@media screen and (min-width:993px) and (max-width:1159px) {}
+@media screen and (min-width:993px) and (max-width:1159px) {
+
+    /** start banner css **/
+    .banner {
+        padding: 0 20px;
+    }
+
+    /** end banner css **/
+}
