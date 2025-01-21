@@ -11,6 +11,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /** start fonts styles **/
@@ -84,6 +85,7 @@ button {
 .marquee-wrapper {
     overflow: hidden;
     white-space: nowrap;
+    max-width: 100%;
     background-color: #FEA301;
     color: #FFFFFF;
     font-size: 16px;
@@ -96,7 +98,7 @@ button {
 .marquee {
     display: inline-block;
     white-space: nowrap;
-    animation: marquee 30s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .marquee span {
@@ -108,7 +110,7 @@ button {
     animation-play-state: paused;
 }
 
-@keyframes marquee {
+@keyframes scroll {
     0% {
         transform: translateX(100%);
     }
