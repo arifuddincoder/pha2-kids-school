@@ -67,6 +67,10 @@ button {
     text-align: center;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /** end common css **/
 
 /** start header css **/
@@ -90,7 +94,6 @@ button {
 }
 
 .header-nav ul {
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
@@ -148,7 +151,6 @@ button {
 
 /** start banner css **/
 .banner {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -190,7 +192,6 @@ button {
 }
 
 .sc-features {
-    display: flex;
     justify-content: space-between;
     gap: 28px;
 }

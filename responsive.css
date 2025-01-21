@@ -6,6 +6,18 @@
         font-size: 1rem;
     }
 
+    .d-md-none {
+        display: none;
+    }
+
+    .heading-two {
+        font-size: 1.63rem;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
     /** common css **/
     /** start header css **/
     .header-nav {
@@ -44,10 +56,46 @@
     }
 
     /** end banner css **/
+
+    /** start start Standard Curriculum css **/
+    .standard-curriculum {
+        padding: 0 15px;
+    }
+
+    .sc-features_item h3 {
+        font-size: 1.1rem;
+        padding: 20px 0;
+    }
+
+    .standard-curriculum h2 {
+        padding: 20px 0;
+    }
+
+    .sc-features_item {
+        margin-bottom: 0;
+    }
+
+    .sc-features {
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    /** end start Standard Curriculum css **/
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
 
+    /** common css **/
+    .d-md-none {
+        display: none;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    /** common css **/
     /** start header css **/
     .header-nav {
         padding: 12px 16px;
@@ -76,6 +124,31 @@
     }
 
     /** end banner css **/
+
+    /** start start Standard Curriculum css **/
+    .standard-curriculum {
+        padding: 0 15px;
+    }
+
+    .sc-features_item h3 {
+        font-size: 1.1rem;
+        padding: 20px 0;
+    }
+
+    .standard-curriculum h2 {
+        padding: 20px 0;
+    }
+
+    .sc-features_item {
+        margin-bottom: 0;
+    }
+
+    .sc-features {
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    /** end start Standard Curriculum css **/
 }
 
 @media screen and (min-width:993px) and (max-width:1159px) {
