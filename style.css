@@ -375,3 +375,70 @@ button {
 }
 
 /** end our stories css **/
+
+/** start footer css **/
+.footer {
+    background-color: #01ACFD;
+    color: var(--white);
+    padding: 123px 0 150px;
+}
+
+.footer a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-content {
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-section.footer-section-1 {
+    flex: 1.5;
+    padding-right: 50px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.footer-logo h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.footer-section-1 p {
+    font-size: 1.25rem;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.footer-section li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-section li:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer-section li a {
+    font-size: 1.25rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/** end footer css **/
