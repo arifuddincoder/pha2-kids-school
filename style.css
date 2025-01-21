@@ -36,6 +36,13 @@ body {
     line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
 .container {
     max-width: 1160px;
     width: 100%;
@@ -88,7 +95,6 @@ button {
 }
 
 .header-logo h3 {
-    font-weight: 700;
     font-size: 2rem;
     color: var(--dark);
 }
@@ -269,3 +275,102 @@ button {
 }
 
 /** end Standard Curriculum css **/
+
+/** start our stories css **/
+.our-stories {
+    padding: 60px 0;
+    background: url('assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.our-stories h2 {
+    margin-bottom: 80px;
+}
+
+.our-stories-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 0.48fr 0.26fr 0.26fr;
+    grid-template-areas:
+        "story-grid-1 story-grid-2 story-grid-3"
+        "story-grid-1 story-grid-4 story-grid-5";
+}
+
+.story-grid-1 {
+    grid-area: story-grid-1;
+}
+
+.story-grid-2 {
+    grid-area: story-grid-2;
+}
+
+.story-grid-3 {
+    grid-area: story-grid-3;
+}
+
+.story-grid-4 {
+    grid-area: story-grid-4;
+}
+
+.story-grid-5 {
+    grid-area: story-grid-5;
+}
+
+.story-item {
+    background-color: var(--white);
+    border-radius: 16px;
+}
+
+.story-item img {
+    border-radius: 16px 16px 0 0;
+}
+
+.story-item-content {
+    padding: 0 38px 28px;
+}
+
+.story-item .story-date {
+    position: relative;
+    display: flex;
+    background-color: #95B226;
+    border-radius: 48px;
+    max-width: 174px;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    font-size: 0.96rem;
+    padding: 10px 18px;
+    margin-top: -29px;
+    z-index: 1;
+}
+
+.story-grid-1 .story-date {
+    background-color: #3CD8E8;
+    padding: 14px 18px;
+    margin-top: -34px;
+}
+
+.story-grid-3 .story-date {
+    background-color: #5D58F0;
+}
+
+.story-item h3 {
+    color: var(--black);
+    margin-top: 19px;
+    font-size: 0.96rem;
+}
+
+.story-grid-1 h3 {
+    margin: 33px 0 41px;
+    font-size: 1.5rem;
+}
+
+.story-grid-1 p {
+    color: #666666;
+}
+
+.our-stories>button {
+    margin: 80px auto 0;
+    display: block;
+}
+
+/** end our stories css **/
