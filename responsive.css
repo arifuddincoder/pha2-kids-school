@@ -292,4 +292,8 @@
     .our-stories-grid {
         padding: 0 15px;
     }
+
+    .story-item-content {
+        padding: 0 30px 28px;
+    }
 }
