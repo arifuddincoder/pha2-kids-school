@@ -61,11 +61,18 @@ button {
 
 .btn-primary {
     background-color: var(--dark);
+    border: 1px solid var(--dark);
     color: var(--white);
     font-weight: 700;
     font-size: 1.25rem;
     padding: 10px 47px;
     border-radius: 12px;
+    transition: background-color 1s linear, border-color 1s linear;
+}
+
+.btn-primary:hover {
+    background-color: #c47d04;
+    border-color: #c47d04;
 }
 
 .heading-two {
@@ -86,7 +93,7 @@ button {
     overflow: hidden;
     white-space: nowrap;
     max-width: 100%;
-    background-color: #FEA301;
+    background-color: var(--orange);
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
@@ -178,6 +185,11 @@ button {
     padding: 10px 60px;
     color: var(--white);
     border-radius: 12px;
+    transition: background-color 1s linear;
+}
+
+.btn-contact:hover {
+    background-color: #c47d04;
 }
 
 .navbar-toggler {
