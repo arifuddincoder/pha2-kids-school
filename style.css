@@ -329,11 +329,12 @@ button {
 }
 
 .story-item .story-date {
+    font-weight: 500;
     position: relative;
+    max-width: 170px;
     display: flex;
     background-color: #95B226;
     border-radius: 48px;
-    max-width: 174px;
     color: var(--white);
     justify-content: center;
     align-items: center;
