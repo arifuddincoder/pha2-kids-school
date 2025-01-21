@@ -287,4 +287,9 @@
     }
 
     /** end banner css **/
+
+    .sc-features,
+    .our-stories-grid {
+        padding: 0 15px;
+    }
 }
