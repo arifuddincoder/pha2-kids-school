@@ -25,21 +25,6 @@ A colorful and responsive kids school website built with HTML, CSS, and Bootstra
 
 ---
 
-## 🛠 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/arifuddincoder/pha2-kids-school.git
-   ```
-
-2. Navigate to the project folder:
-   ```bash
-   cd pha2-kids-school
-   ```
-
-3. Open `index.html` in your browser, or use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
-
----
 
 ## 🧑‍💻 Author
 
