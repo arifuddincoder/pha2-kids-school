@@ -4,11 +4,6 @@ A colorful and responsive kids school website built with HTML, CSS, and Bootstra
 
 🌐 **Live Site:** [https://arifuddincoder.github.io/pha2-kids-school/](https://arifuddincoder.github.io/pha2-kids-school/)
 
----
-
-## 📸 Preview
-
-![PHA2 Kids School Screenshot](https://arifuddincoder.github.io/pha2-kids-school/screenshot.png)
 
 ---
 
